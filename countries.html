@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        header {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 12px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 5px;
+            display: grid;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        div {
+            padding: 5px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: lightyellow;
+            box-shadow: 1px 1px 1px 2px #fffafa;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        img {
+            width: 240px;
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>See All Country in the World</h1>
+        <section id="country-details">
+
+        </section>
+    </header>
+    <section id="countries-container">
+    </section>
+    <script src="countries.js"></script>
+</body>
+
+</html>
